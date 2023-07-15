@@ -9,11 +9,11 @@ function toggleMode() {
  if (html.classList.contains('light')){
  // se tiver light mode, imagem light
   img.setAttribute('src', './assets/diogo-light.png')
-  img.setAttribute('alt', 'Foto de Myke LIGHT')
+  img.setAttribute('alt', 'Foto de Diogo LIGHT')
   } else {
  // se tiver sem light, imagem normal
   img.setAttribute('src', './assets/diogo.png')
-  img.setAttribute('alt', 'Foto de Myke')
+  img.setAttribute('alt', 'Foto de Diogo')
   }
 
 
